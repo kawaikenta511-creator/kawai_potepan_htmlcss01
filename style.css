@@ -1,0 +1,51 @@
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.header_container{
+    margin: 0px 36px;
+
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.header_logo{
+    height: 20px;
+
+}
+
+.header_menu{
+    list-style: none;
+
+    display: flex;
+    gap: 45px;
+    align-items: center;
+}
+
+.header_menu_item{
+    display: block;
+    text-align: center;
+}
+
+.header_menu_item_bigfont{
+    font-size: 20px;
+    text-align: center;
+}
+
+.header_menu_item_smallfont{
+    font-size: 10px;
+    text-align: center;
+}
+
+.header_menu_item_counseling{
+    color: white;
+    background-color: orange;
+    padding: 20px;
+    border-radius: 50px;
+    width: fit-content;
+    height: fit-content;
+    
+
+}
